@@ -28,7 +28,7 @@ p{
     grid-column-start: 1;
     grid-column-end: -1;
     text-align: center;
-    font-size: 25px;
+    
 }
 
 .contenedor .whitebox{
@@ -66,14 +66,10 @@ p{
 
 .contenedor .whitebox .escenario{
     background-color: #fceac4;
-    margin: 10%;
-    font-style: oblique;
-    padding: 3%;
-    color: #12203E;
+    margin: 5%;
     grid-column: 2/4;
-    letter-spacing: 1px;
-    font-size: 20px;
-    font-weight: 400;
+    
+    
 }
 
 .contenedor .footer {
@@ -158,6 +154,20 @@ p{
 	height: 100%;
 }
 
+.escenario{
+    position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+
+.escenario iframe{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /*Responsive para todas las plataformas */
 
 @media screen and (max-width: 600px) {
