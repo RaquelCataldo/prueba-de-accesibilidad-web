@@ -224,10 +224,6 @@ p{
     
 }
 
-.escenario{
-    grid-column: 1/4;
-}
-
 .button:hover{
     text-decoration: none;
     background-color: #12203e;
@@ -238,6 +234,10 @@ p{
     margin: 10%;
     padding: 5%;
     text-align: center;
+}
+
+.escenario{
+    grid-column: 1/4;
 }
  
 }
