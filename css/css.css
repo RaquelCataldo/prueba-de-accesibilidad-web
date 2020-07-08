@@ -227,10 +227,7 @@ p{
 
 .contenedor .whitebox .escenario{
     background-color: #fceac4;
-    margin: 10%;
-    font-style: oblique;
-    padding: 3%;
-    color: #12203E;
+    margin: 12%;
     grid-column: 1/4;
 }
 
@@ -244,9 +241,6 @@ p{
     margin: 10%;
     padding: 5%;
     text-align: center;
-}
-.escenario{
-    grid-column: 1/4;
 }
  
 }
