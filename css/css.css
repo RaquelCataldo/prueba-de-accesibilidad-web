@@ -65,8 +65,7 @@ p{
 }
 
 .contenedor .whitebox .escenario{
-    background-color: #fceac4;
-     margin: 20px 50px 50px 50px;
+    margin: 20px 50px 50px 50px;
     grid-column: 2/4;
   
 }
@@ -226,8 +225,7 @@ p{
 }
 
 .contenedor .whitebox .escenario{
-    background-color: #fceac4;
-    margin: 12%;
+    margin: 20px 30px 50px 30px;
     grid-column: 1/4;
 }
 
